@@ -5,8 +5,21 @@ let tamagochi = {
     mood: 3,
     getStatus: function() {
         console.log(this.name);
-        console.log(this.energy);
-        console.log(this.food);
+        if (this.energy < 3) {
+            console.log('Я хочу спать');
+        } else {
+            console.log('Я не хочу спать')
+        }
+        if (this.food < 3) {
+            console.log('Я голоден');
+        } else {
+            console.log('Я не голоден')
+        }
+        if (this.mood < 3) {
+            console.log('Мне скучно')
+        } else {
+            console.log('Мне весело')
+        }
     },
     setName: function(name) {
         this.name = name;

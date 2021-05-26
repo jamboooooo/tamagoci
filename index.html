@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .buttons-block {
+            width: 260px;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+        }
+        
+        button {
+            width: 60px;
+            height: 25px;
+        }
+        
+        .emodji {
+            width: 250px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        
+        .emodji img {
+            width: 100%;
+        }
+        
+        .emo {
+            margin: 0;
+            width: 100px;
+            height: 100px;
+            font-size: 60px;
+            margin: auto;
+        }
+        
+        .value-block {
+            display: flex;
+            justify-content: space-between;
+            width: 260px;
+            margin: auto;
+        }
+        
+        .value-block h2 {
+            font-size: 40px;
+            margin: 0;
+        }
+        
+        .value-block p {
+            font-size: 20px;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        
+        .value-block div {
+            width: 80px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="emodji">
+        <p class="emo"></p>
+        <div>
+            <p class="my-eat-status"></p>
+            <p class="my-energy-status"></p>
+            <p class="my-mood-status"></p>
+        </div>
+    </div>
+    <div class="value-block">
+        <div>
+            <h2 class="eat-item"></h2>
+            <p>Еда</p>
+        </div>
+        <div>
+            <h2 class="sleep-item"></h2>
+            <p>Энергия</p>
+        </div>
+        <div>
+            <h2 class="play-item"></h2>
+            <p>Настроение</p>
+        </div>
+    </div>
+    <div class="buttons-block">
+        <button class="eat">Кушать</button>
+        <button class="sleep">Спать</button>
+        <button class="play">Играть</button>
+        <button class="status">Status</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
